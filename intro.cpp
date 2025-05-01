@@ -34,14 +34,14 @@ int main(){
     return 0;
 }
 void showbalance(int balance){
-    cout<<"Your current balance is "<<balance<<"$\n";
+    cout<<"Your current balance is "<< balance <<"$\n";
 }
 int deposit(int balance){
     double amount;
     cout<<"Enter an amount a to deposit: ";
     cin>>amount;
     if (amount>0){
-       cout<<"Amount deposite successfully!";
+       cout<<"Amount deposit successfully!";
        return amount;
     }else{
         cout<<"invalid Amount\n";
